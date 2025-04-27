@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gravité (sans accélération)"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/gravity_x_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X: 0.00 m/s²" />
+
+    <TextView
+        android:id="@+id/gravity_y_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Y: 0.00 m/s²" />
+
+    <TextView
+        android:id="@+id/gravity_z_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Z: 0.00 m/s²"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Taux de rotation (gyroscope)"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/rotation_x_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X: 0.00 rad/s" />
+
+    <TextView
+        android:id="@+id/rotation_y_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Y: 0.00 rad/s" />
+
+    <TextView
+        android:id="@+id/rotation_z_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Z: 0.00 rad/s" />
+
+</LinearLayout>

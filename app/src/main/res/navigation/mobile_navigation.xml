@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.sensors.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.sensors.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.sensors.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_list"
+        android:name="com.example.sensors.ui.sensors.ListSensorsFragment"
+        android:label="Sensors"
+        tools:layout="@layout/fragment_listsensors_list" />
+    <fragment
+        android:id="@+id/nav_humd"
+        android:name="com.example.sensors.ui.humidity.HumidityFragment"
+        android:label="Humidity"
+        tools:layout="@layout/fragment_humidity" />
+    <fragment
+        android:id="@+id/nav_magnetic"
+        android:name="com.example.sensors.ui.magnetic.MagneticFragment"
+        android:label="fragment_magnetic"
+        tools:layout="@layout/fragment_magnetic" />
+    <fragment
+        android:id="@+id/nav_proximity"
+        android:name="com.example.sensors.ui.proximity.ProximityFragment"
+        android:label="fragment_proximity"
+        tools:layout="@layout/fragment_proximity" />
+    <fragment
+        android:id="@+id/nav_thermo"
+        android:name="com.example.sensors.ui.thermometer.ThermoFragment"
+        android:label="fragment_thermo"
+        tools:layout="@layout/fragment_thermo" />
+    <fragment
+        android:id="@+id/nav_compass"
+        android:name="com.example.sensors.ui.compass.CompassFragment"
+        android:label="fragment_compass"
+        tools:layout="@layout/fragment_compass" />
+
+    <fragment
+        android:id="@+id/nav_accel"
+        android:name="com.example.sensors.ui.acceleration.AccelerometerFragment"
+        android:label="fragment_accelerometer"
+        tools:layout="@layout/fragment_compass" />
+
+    <fragment
+        android:id="@+id/nav_grav"
+        android:name="com.example.sensors.ui.gravity.SensorFragment"
+        android:label="fragment_gravity"
+        tools:layout="@layout/fragment_sensor" />
+
+    <fragment
+        android:id="@+id/nav_steps"
+        android:name="com.example.sensors.ui.walking.StepCounterFragment"
+        android:label="fragment_step_counter"
+        tools:layout="@layout/fragment_step_counter" />
+
+    <fragment
+        android:id="@+id/nav_bouss"
+        android:name="com.example.sensors.ui.boussole.BoussFragment"
+        android:label="fragment_boussole"
+        tools:layout="@layout/fragment_bouss" />
+</navigation>
