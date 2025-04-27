@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/list"
-    android:name="com.example.sensors.ui.sensors.ListSonsorsFragment1"
+    android:name="com.example.sensors.ui.sensors.ListSensorsFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginLeft="16dp"
     android:layout_marginRight="16dp"
     app:layoutManager="LinearLayoutManager"
     tools:context=".ui.sensors.ListSensorsFragment"
-    tools:listitem="@layout/fragment_listsensors1" />
+    tools:listitem="@layout/fragment_listsensors" />

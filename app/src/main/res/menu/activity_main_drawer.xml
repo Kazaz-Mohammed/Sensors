@@ -4,10 +4,10 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+<!--        <item-->
+<!--            android:id="@+id/nav_home"-->
+<!--            android:icon="@drawable/ic_menu_camera"-->
+<!--            android:title="@string/menu_home" />-->
         <item
             android:id="@+id/nav_list"
             android:icon="@drawable/ic_sensors"
@@ -25,28 +25,28 @@
             android:icon="@mipmap/proximity"
             android:title="Proximity" />
         <item
-            android:id="@+id/nav_thermo"
-            android:icon="@mipmap/proximity"
-            android:title="Thermo" />
-        <item
             android:id="@+id/nav_compass"
             android:icon="@mipmap/compass"
             android:title="Compass" />
         <item
             android:id="@+id/nav_accel"
-            android:icon="@mipmap/compass"
+            android:icon="@mipmap/accel"
             android:title="Accelerometer" />
         <item
             android:id="@+id/nav_grav"
-            android:icon="@mipmap/compass"
+            android:icon="@mipmap/gyroscope"
             android:title="Gravity" />
         <item
             android:id="@+id/nav_steps"
-            android:icon="@mipmap/compass"
+            android:icon="@mipmap/step"
             android:title="Steps Count" />
         <item
             android:id="@+id/nav_bouss"
             android:icon="@mipmap/compass"
             android:title="Boussole" />
+        <item
+            android:id="@+id/nav_thermo"
+            android:icon="@mipmap/weather"
+            android:title="Thermo" />
     </group>
 </menu>

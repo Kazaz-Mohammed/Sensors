@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <!-- Outer circle -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:strokeColor="#BDBDBD"
+        android:strokeWidth="2"
+        android:pathData="M200,200 m-180,0 a180,180 0 1,0 360,0 a180,180 0 1,0 -360,0"/>
+
+    <!-- Degree markings - Main directions -->
+    <!-- North -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M200,20 L205,35 L195,35 Z"/>
+    <path
+        android:strokeColor="#E53935"
+        android:strokeWidth="2"
+        android:pathData="M200,35 L200,55"/>
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M195,65 L195,48 L205,48 L205,65 L200,60 Z"/>
+
+    <!-- East -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M380,200 L365,205 L365,195 Z"/>
+    <path
+        android:strokeColor="#333333"
+        android:strokeWidth="2"
+        android:pathData="M365,200 L345,200"/>
+    <path
+        android:fillColor="#333333"
+        android:pathData="M335,195 L335,205 L325,205 L325,195 Z M325,195 L325,205 L315,195 L325,195 Z"/>
+
+    <!-- South -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M200,380 L195,365 L205,365 Z"/>
+    <path
+        android:strokeColor="#333333"
+        android:strokeWidth="2"
+        android:pathData="M200,365 L200,345"/>
+    <path
+        android:fillColor="#333333"
+        android:pathData="M195,335 L195,325 Q197.5,320 200,325 Q202.5,320 205,325 L205,335 Z"/>
+
+    <!-- West -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M20,200 L35,195 L35,205 Z"/>
+    <path
+        android:strokeColor="#333333"
+        android:strokeWidth="2"
+        android:pathData="M35,200 L55,200"/>
+    <path
+        android:fillColor="#333333"
+        android:pathData="M65,195 L65,205 L75,200 L75,195 Z M75,195 L85,195 L85,205 L75,205 L75,200 Z"/>
+
+    <!-- Degree ticks - every 30 degrees -->
+    <path
+        android:strokeColor="#757575"
+        android:strokeWidth="2"
+        android:pathData="M200,40 L200,50 M290,60 L285,68 M355,110 L345,115 M370,200 L360,200 M350,290 L340,285 M290,340 L280,335 M200,360 L200,350 M110,340 L115,330 M50,290 L60,285 M30,200 L40,200 M50,110 L60,115 M110,60 L120,68"/>
+
+    <!-- Degree ticks - every 15 degrees -->
+    <path
+        android:strokeColor="#BDBDBD"
+        android:strokeWidth="1"
+        android:pathData="M245,45 L240,53 M320,80 L312,87 M365,155 L355,160 M365,245 L355,240 M320,320 L312,313 M245,355 L240,347 M155,355 L160,347 M80,320 L88,313 M35,245 L45,240 M35,155 L45,160 M80,80 L88,87 M155,45 L160,53"/>
+</vector>
